@@ -22,7 +22,7 @@ export default function Work() {
             name: 'Portfolio Website',
             icon: './assets/work-4.png',
             description: 'React + Tailwind • GitHub Pages',
-            link: 'https://github.com/Shakilkhandaker/shakil-portfolio',
+            link: 'https://github.com/Shakilkhandaker',
         },
     ];
 
