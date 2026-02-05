@@ -3,13 +3,13 @@ export default function Footer() {
         <div className="mt-20">
             <div className="text-center">
                 <a href="#top" aria-label="Back to top">
-                    <img src="/assets/logo.png" alt="Logo" className="w-36 mx-auto mb-2 dark:hidden" />
-                    <img src="/assets/logo_dark.png" alt="Logo" className="w-36 mx-auto mb-2 hidden dark:block" />
+                    <img src={`${import.meta.env.BASE_URL}assets/logo.png`} alt="Logo" className="w-36 mx-auto mb-2 dark:hidden" />
+                    <img src={`${import.meta.env.BASE_URL}assets/logo_dark.png`} alt="Logo" className="w-36 mx-auto mb-2 hidden dark:block" />
                 </a>
 
                 <div className="w-max flex items-center gap-2 mx-auto">
-                    <img src="./assets/mail_icon.png" alt="" className="w-5 dark:hidden" />
-                    <img src="./assets/mail_icon_dark.png" alt="" className="w-5 hidden dark:block" />
+                    <img src={`${import.meta.env.BASE_URL}assets/mail_icon.png`} alt="" className="w-5 dark:hidden" />
+                    <img src={`${import.meta.env.BASE_URL}assets/mail_icon_dark.png`} alt="" className="w-5 hidden dark:block" />
                     <a href="mailto:shakilkhandaker006@gmail.com">shakilkhandaker006@gmail.com</a>
                 </div>
             </div>

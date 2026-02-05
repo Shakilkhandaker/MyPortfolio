@@ -42,7 +42,7 @@ export default function Work() {
                                 <p className="text-sm text-gray-700">{item.description}</p>
                             </div>
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                                <img src="./assets/send-icon.png" alt="" className="w-5" />
+                                <img src={`${import.meta.env.BASE_URL}assets/send-icon.png`} alt="" className="w-5" />
                             </div>
                         </div>
                     </a>
